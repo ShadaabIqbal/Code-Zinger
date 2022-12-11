@@ -61,3 +61,18 @@
 
 // console.log(sol(arr));
 
+//Qno5:
+// let arr = [1,2,3,4];
+// function sol(arr) {
+//     let res = [];
+// for (let i = 0; i < arr.length; i++) {
+//     let eachNum = arr[i];
+//     eachNum = arr[i - 1];
+//     if (eachNum == undefined) {
+//         eachNum = -1;
+//     }
+//     res.push(eachNum);
+// }
+// return res;
+// }
+// console.log(sol(arr));

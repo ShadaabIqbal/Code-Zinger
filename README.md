@@ -15,3 +15,7 @@ Where, pi is mathematical constant whose value is 3.14
 Qno4: 
 Number of unique pairs in an array
 Given an array of N elements, find all the unique pairs that can be formed using the elements of a given array.
+
+Qno5:
+Replace every element with its previous element
+Given an array A of integers, write a program to replace each element in the array by the previous element. Replace the first element by -1.
