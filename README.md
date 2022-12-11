@@ -12,3 +12,6 @@ Qno3: Given an integer radius R, find the area of a circle.
 Area of circle = pi * radius * radius.
 Where, pi is mathematical constant whose value is 3.14
 
+Qno4: 
+Number of unique pairs in an array
+Given an array of N elements, find all the unique pairs that can be formed using the elements of a given array.

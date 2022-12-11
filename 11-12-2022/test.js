@@ -41,3 +41,23 @@
 // }
 
 // console.log(area(rad));
+
+//Qno:4:
+// let arr = [1,1,2]
+// function sol(arr) {
+//     let res = [];
+//   for (let i = 0; i < arr.length; i++) {
+//     const element1 = arr[i];
+//     for (let j = 0; j < arr.length; j++) {
+//         const element2 = arr[j];
+//         let pairs = (element1,element2)
+//         if (!res.includes(pairs)) {
+//             res.push(pairs);
+//         }
+//    }
+//  }
+//  return res;
+// }
+
+// console.log(sol(arr));
+
