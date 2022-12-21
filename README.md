@@ -59,4 +59,16 @@ Explanation: The ranges are:
 Qno10:
 Given an integer N, find whether it is Armstrong number or not.
 Reference: https://illuminations.nctm.org/Lesson.aspx?id=2166
-Display 1 if it is an Armstrong number else 0. 
+Display 1 if it is an Armstrong number else 0.
+
+Qno11:
+Given two time data (in hour, minute and second format) an input, create a Time structure to store hour, minute and second values. Calculate the difference between two time.
+Perform the following operations
+Store value of hour, minute and second in the Time structure.
+Calcuate the difference of Time.
+
+Qno12:
+Given cost price and sales price of an item, calculate and print profit or loss percentage.
+Write a function:
+void solution(float C, float S)
+that accepts a cost price C and sales price S of type float. The function should print the calculated profit or loss percentage. 
