@@ -71,4 +71,35 @@ Qno12:
 Given cost price and sales price of an item, calculate and print profit or loss percentage.
 Write a function:
 void solution(float C, float S)
-that accepts a cost price C and sales price S of type float. The function should print the calculated profit or loss percentage. 
+that accepts a cost price C and sales price S of type float. The function should print the calculated profit or loss percentage.
+
+Qno13:
+Given an 3 digit integer number, check if the 3 digit number is twisted prime or not.
+Write a function:
+int solution(int N)that accepts an 3 digit integer N. The function should return 1 if the given integer is a twisted prime number else 0.
+Input
+167
+Output
+1
+
+Qno14:
+Given three integers A, B and C. Write a program to find out if the number is a Pythagorean triple.
+Write a function: int solution(int A, int B, int C) that accept three integer A, B and C. The function should return 1 if the given integers are Pythagorean triple else 0.
+
+Qno15:
+Given string S containing only lowercase alphabets and an integer K, find whether the string can be converted to a Pangram by performing at most K changes. In one change we can remove any existing character and add a new character.
+Note: Given that length of the string is greater than 26 always and in one operation we have to remove an existing element to add a new element.
+Input:
+qwqqwqeqqwdsdadsdasadsfsdsdsdasasas
+4 
+where:
+First line represents string S.
+Second line represents K
+
+Qn016:
+Given an integer n, return true if it is a power of two. Otherwise, return false.
+An integer n is a power of two, if there exists an integer x such that n == 2x.
+
+Qno17:
+Given two strings s and t, return true if t is an anagram of s, and false otherwise.
+An Anagram is a word or phrase formed by rearranging the letters of a different word or phrase, typically using all the original letters exactly once.
