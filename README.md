@@ -103,3 +103,12 @@ An integer n is a power of two, if there exists an integer x such that n == 2x.
 Qno17:
 Given two strings s and t, return true if t is an anagram of s, and false otherwise.
 An Anagram is a word or phrase formed by rearranging the letters of a different word or phrase, typically using all the original letters exactly once.
+
+Qno18:
+Given two strings S1 and S2, you are allowed only to change a character at any position to any vowel if it is a vowel or to a consonant, if it is a consonant. Write a program to check whether a string S1 can be changed to S2 or S2 can be changed to S1.
+Input:
+abcgle
+ezggli
+where:
+First line represents string S1.
+Second line represents string S2.
