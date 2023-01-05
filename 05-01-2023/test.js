@@ -39,4 +39,14 @@
 //     }
 // }
 
-// console.log(isConvertible(x, y));
+//Qno:19:
+// let num = 38998877;
+// function add(a) {
+// if (a%9 == 0) {
+//     return 9;
+// }else if(a%9 < 10){
+//     return a%9;
+// }
+// }
+// console.log(add(num));
+
