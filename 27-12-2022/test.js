@@ -46,10 +46,11 @@
 
 // console.log(isPythagorean(a,b,c));
 
-//Qno.15:
+// Qno.15:
 // let str = 'qwqqwqeqqwdsdadsdasadsfsdsdsdasasas'
 // let k = 24;
 // let strr = str.split("")
+// console.log(strr);
 
 // function isPangram(str, k) {
 //     if (str.length < 26) {

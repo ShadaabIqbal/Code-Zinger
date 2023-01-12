@@ -113,7 +113,7 @@ where:
 First line represents string S1.
 Second line represents string S2.
 
-Qno:19:
+Qno19:
 Given an integer num, repeatedly add all its digits until the result has only one digit, and return it.
 Example 1:
 Input: num = 38
@@ -122,3 +122,29 @@ Explanation: The process is
 38 --> 3 + 8 --> 11
 11 --> 1 + 1 --> 2 
 Since 2 has only one digit, return it.
+
+Qno20:
+Find a string within a string
+Given two strings S1 & S2, search for an occurrence of the second string within a first string.  
+Note: Do not use system library for the implementation. 
+Input:
+Code Zinger University 
+Zinger where, 
+First line represents string S1. 
+Second line represents string S2. 
+Output:
+5 
+Here 'Zinger' word starts at 5th index within 'Code Zinger University’.
+
+Qno21:
+Given a string S, find the difficulty of the given string. Here a Word is considered hard if it has 4 consecutive consonants or number of consonants is more than the number of vowels. Else word is easy. Difficulty of the string is defined as 5*(number of hard words) + 3*(number of easy words).
+Hard words = 2(Difficulty and sentence) Easy words = 1(of) So, answer is 5*2+3*1 = 13
+
+Qno22:
+Given a string S, find all characters that are missing from the string S, i.e., the characters that can make the string a Pangram. Display output in alphabetic order.
+Input:
+The quick brown fox jumps
+where:
+First line represents string S.
+Output:
+adglvyz

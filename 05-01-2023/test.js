@@ -50,3 +50,58 @@
 // }
 // console.log(add(num));
 
+// setTimeout(function timer() {
+//     console.log('timer');
+// }, 5000);
+
+// function x(y) {
+//     console.log('x');
+//     y(function a(c) {
+//         console.log('a');
+//         c();
+//     });
+// }
+
+// x(function y(a) {
+//     console.log('y');
+//     a(function c() {
+//         console.log('c');
+//     });
+// })
+
+// let arr = [3, 5, 6, 8, 10];
+
+// function area(radius) {
+//     return Math.PI * radius * radius;
+// };
+
+// function circumference(radius) {
+//     return 2 * Math.PI * radius;
+// };
+
+// function diameter(radius) {
+//     return 2 * radius;
+// };
+
+// Array.prototype.calculate = function (logic) {
+//     let output = [];
+//     for (let i = 0; i < arr.length; i++) {
+//         output.push(logic(arr[i]));
+//     }
+//     return output;
+// }
+
+// console.log(arr.calculate(area));
+// console.log(arr.calculate(circumference));
+// console.log(arr.calculate(circumference));
+// console.log(arr.calculate(diameter));
+
+
+
+
+
+
+
+
+
+
