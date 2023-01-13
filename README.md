@@ -148,3 +148,13 @@ where:
 First line represents string S.
 Output:
 adglvyz
+
+Qno23:
+By frequency counting method:
+Given two strings a and b, return true if t is an anagram of s, and false otherwise.
+An Anagram is a word or phrase formed by rearranging the letters of a different word or phrase, typically using all the original letters exactly once.
+
+Qno24:
+By frequency counting method:
+Given two arrays a and b, return true if a is a square of b, and false otherwise.
+
