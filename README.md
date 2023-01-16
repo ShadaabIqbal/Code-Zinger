@@ -180,8 +180,45 @@ Input: nums = [1,2,3], k = 3
 Output: 2
 
 Qno27:
+Two pointer:
 Find the pair which sums up to o ?
 
 Qno28:
+Two pointer:
 Find the pair which sums up to o ?
+
+Qno29:
+Max Pair Sum
+Given an array of distinct integers A, find the largest sum of any pair of elements. 
+Input 
+6 
+1 2 3 89 4 10 
+Where, 
+First line contains the size of array N. 
+Second line contains array elements.      
+Output 
+99 
+Here for the given array, sum of various pairs are 
+1 + 89 = 90 
+2 + 89 = 91 
+3 + 89 = 92 
+4 + 89 = 93
+10 + 89 = 99 
+and so on. The largest sum out of these pairs is 99.
+
+Qno30:
+Two pointer:
+Two Sum II - Input Array Is Sorted
+Given a 1-indexed array of integers numbers that is already sorted in non-decreasing order, find two numbers such that they add up to a specific target number. Let these two numbers be numbers[index1] and numbers[index2] where 1 <= index1 < index2 <= numbers.length.
+Return the indices of the two numbers, index1 and index2, added by one as an integer array [index1, index2] of length 2.
+Your solution must use only constant extra space.
+
+Qno31:
+DUTCH NATIONAL FLAG PROBLEM:
+Multiple pointer:
+Sort Colors
+Given an array nums with n objects colored red, white, or blue, sort them in-place so that objects of the same color are adjacent, with the colors in the order red, white, and blue.
+We will use the integers 0, 1, and 2 to represent the color red, white, and blue, respectively.
+You must solve this problem without using the library's sort function.
+
 
