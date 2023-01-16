@@ -117,6 +117,34 @@
 
 // console.log(twoSum(nums));
 
+// let b = [5, 1, 2, 3, 4, 1, 2, 7];
+// let a = b.length;
+
+//Another solution for 30:
+// function solution(a, b) {
+//     let target = Math.min(...b)
+//     let diff = Infinity
+//     // console.log(target)
+
+//     let si = b.indexOf(target)
+//     // console.log(si)
+//     for (i = si + 1; i < a; i++) {
+//         if (b[i] == target) {
+//             if (diff < Math.abs(si - i)) {
+//                 continue
+//             } else {
+
+//                 diff = Math.abs(si - i)
+//                 si = i
+//             }
+//         }
+//     } if (diff == Infinity) return -1
+//     return diff
+
+// }
+
+// console.log(solution(a,b))
+
 
 
 
