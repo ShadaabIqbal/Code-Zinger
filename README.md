@@ -221,4 +221,56 @@ Given an array nums with n objects colored red, white, or blue, sort them in-pla
 We will use the integers 0, 1, and 2 to represent the color red, white, and blue, respectively.
 You must solve this problem without using the library's sort function.
 
+Qno32:
+Sliding window:
+Given an integer array nums and an integer k, return true if there are two distinct indices i and j in the array such that nums[i] == nums[j] and abs(i - j) <= k.
+
+Qno33:
+Sliding window:
+Given an array of integers Arr of size N and a number K. Return the maximum sum of a subarray of size K.
+Example 1:
+Input:
+N = 4, K = 2
+Arr = [100, 200, 300, 400]
+Output:
+700
+Explanation:
+Arr3  + Arr4 =700,
+which is maximum.
+
+Qno34:
+Given a string s, find the length of the longest substring without repeating characters.
+Example 1:
+Input: s = "abcabcbb"
+Output: 3
+Explanation: The answer is "abc", with the length of 3.
+
+Qno35:
+Given a string S, find length of the longest substring with all distinct characters. 
+Example 1:
+Input:
+S = "geeksforgeeks"
+Output: 7
+Explanation: "eksforg" is the longest 
+substring with all distinct characters.
+
+Qno36:
+Given a string S and a number K, find the number of substrings of length K whose sum of ASCII value of characters is divisible by K.
+Input:
+bcgabc
+3
+where:
+First line represents the input string S
+Second line represents K.
+
+Qno37:
+KADENE'S ALGORITHM:
+Given an array of integers A, find the largest sum of contiguous elements in sub-array of an array.
+Input 
+5 
+-20 -12 42 -10 25
+Where, 
+The first line represents the size of an array. 
+The second line represents array elements.
+
 
