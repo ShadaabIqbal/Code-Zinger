@@ -273,4 +273,35 @@ Where,
 The first line represents the size of an array. 
 The second line represents array elements.
 
+Qno38:
+Given an array Arr[] of size L and a number N, you need to write a program to find if there exists a pair of elements in the array whose difference is N.
+
+Example 1:
+
+Input:
+L = 6, N = 78
+arr[] = {5, 20, 3, 2, 5, 80}
+Output: 1
+Explanation: (2, 80) have difference of 78.
+
+let arr = [5, 20, 3, 2, 5, 80];
+let L = 6;
+let N = 78;
+
+Qno39:
+You are given an array people where people[i] is the weight of the ith person, and an infinite number of boats where each boat can carry a maximum weight of limit. Each boat carries at most two people at the same time, provided the sum of the weight of those people is at most limit.
+Return the minimum number of boats to carry every given person.
+Example 1:
+Input: people = [1,2], limit = 3
+Output: 1
+Explanation: 1 boat (1, 2)
+
+Qno40:
+Given a binary array nums and an integer k, return the maximum number of consecutive 1's in the array if you can flip at most k 0's.
+Example 1:
+Input: nums = [1,1,1,0,0,0,1,1,1,1,0], k = 2
+Output: 6
+Explanation: [1,1,1,0,0,1,1,1,1,1,1]
+Bolded numbers were flipped from 0 to 1. The longest subarray is underlined.
+
 

@@ -129,30 +129,73 @@
 
 // console.log(largestSum(arr,k));
 
-// let str = 'aaba';
-// let k = 2;
 
-//BRUTE FORCE:
-//TO BE OPTIMISED:
-//NEGATIVE,AND TWO MORE QUESTIONS TO DO....
-// function distChar(str, k) {
-//     let count = 0;
-//     let map = {};
-//     for (let i = 0; i < str.length; i++) {
-//         for (let j = i; j < str.length; j++) {
-//             if (!map[str[j]]) {
-//                 map[str[j]] = true;
-//             }
-//             if (Object.keys(map).length == k) {
-//                 count++
-//             }
+//Qno38:
+// function findDiff(arr, l, n) {
+//     arr.sort((a, b) => a - b);
+//     let i = 0;
+//     let j = l - 1;
+//     while (i < j) {
+//         if (Math.abs(arr[i] - arr[j]) > n) {
+//             j--;
+//         } else if (Math.abs(arr[i] - arr[j]) < n) {
+//             i++
+//         } else if (Math.abs(arr[i] - arr[j]) == n) {
+//             return 1;
 //         }
-//         map = {};
 //     }
-//     return count;
+//     return -1;
 // }
 
-// console.log(distChar(str, k));
+// console.log(findDiff(arr, L, N));
+
+//Qno39:
+// let people = [1,2];
+// let limit = 3;
+
+// function numRescueBoats(people, limit) {
+//     people.sort((a, b) => a - b);
+//     let start = 0;
+//     let end = people.length - 1;
+//     let boatsCount = 0;
+//     while (start <= end) {
+//         if (people[start] + people[end] <= limit) {
+//             start++;
+//             end--;
+//             boatsCount++;
+//         } else {
+//             end--;
+//             boatsCount++;
+//         }
+//     }
+//     return boatsCount;
+// }
+
+// console.log(numRescueBoats(people,limit));
+
+
+//Qno40:
+let nums = [1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 0];
+let k = 2;
+
+function longestOnes(nums, k) {
+    let map = new Map();
+    let left = 0;
+    let right = 0;
+    let maxLength = 0;
+    for (right = 0; right < nums.length; right++) {
+        map.set(nums[right], (map.get(nums[right]) || 0) + 1);
+            while (map.get(0) > k) {
+                map.set(nums[left], map.get(nums[left]) - 1);
+                left++;
+            }
+        maxLength = Math.max(maxLength, right - left + 1);
+    }
+    return maxLength;
+}
+
+console.log(longestOnes(nums,k));
+
 
 
 
