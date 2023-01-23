@@ -174,27 +174,29 @@
 // console.log(numRescueBoats(people,limit));
 
 
-//Qno40:
-let nums = [1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 0];
-let k = 2;
+// //Qno40:
+// let nums = [1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 0];
+// let k = 2;
 
-function longestOnes(nums, k) {
-    let map = new Map();
-    let left = 0;
-    let right = 0;
-    let maxLength = 0;
-    for (right = 0; right < nums.length; right++) {
-        map.set(nums[right], (map.get(nums[right]) || 0) + 1);
-            while (map.get(0) > k) {
-                map.set(nums[left], map.get(nums[left]) - 1);
-                left++;
-            }
-        maxLength = Math.max(maxLength, right - left + 1);
-    }
-    return maxLength;
-}
+// function longestOnes(nums, k) {
+//     let map = new Map();
+//     let left = 0;
+//     let right = 0;
+//     let maxLength = 0;
+//     for (right = 0; right < nums.length; right++) {
+//         map.set(nums[right], (map.get(nums[right]) || 0) + 1);
+//             while (map.get(0) > k) {
+//                 map.set(nums[left], map.get(nums[left]) - 1);
+//                 left++;
+//             }
+//         maxLength = Math.max(maxLength, right - left + 1);
+//     }
+//     return maxLength;
+// }
 
-console.log(longestOnes(nums,k));
+// console.log(longestOnes(nums,k));
+
+
 
 
 

@@ -304,4 +304,23 @@ Output: 6
 Explanation: [1,1,1,0,0,1,1,1,1,1,1]
 Bolded numbers were flipped from 0 to 1. The longest subarray is underlined.
 
+Qno41:
+There are n friends that are playing a game. The friends are sitting in a circle and are numbered from 1 to n in clockwise order. More formally, moving clockwise from the ith friend brings you to the (i+1)th friend for 1 <= i < n, and moving clockwise from the nth friend brings you to the 1st friend.
+
+Qno42:
+Given a string S, write a program to reverse the input string without using any built-in function
+Input:
+hello world
+where:
+First line represents the input string
+Output:
+dlrow olleh
+
+Qno43:
+Given an integer N, find whether N is a Palindrome using recursion. 
+Write a function that accepts an integer N. The function should return 1 if N is a palindrome else 0. 
+Input:
+121 
+Output:
+1
 
