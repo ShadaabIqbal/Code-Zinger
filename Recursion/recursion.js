@@ -39,3 +39,28 @@
 
 // console.log(isPlr('madam'));
 
+//Qno44:
+// let s = ['h','e','l','l','o'];
+
+// function recursive(s, start, end) {
+//     if (start >= end) {
+//         return;
+//     }
+//     let temp = s[start];
+//     s[start] = s[end];
+//     s[end] = temp;
+//     return recursive(s, start + 1, end - 1);
+// }
+
+// function isPlr(s) {
+//     recursive(s, 0, s.length - 1);
+//     return s;
+// }
+
+// console.log(isPlr(s));
+
+
+
+
+
+

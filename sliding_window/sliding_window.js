@@ -196,7 +196,35 @@
 
 // console.log(longestOnes(nums,k));
 
+//Qno45:
+// let nums = [1,2,1,3,4];
+// let k = 3;
 
+// function dist(nums, k) {
+//     let map = new Map();
+//     let right = 0;
+//     let left = 0;
+//     let length = 0;
+//     let distCount = 0;
+//     for (right = 0; right < nums.length; right++) {
+
+//         if (!map.get(nums[right])) {
+//             distCount++
+//         }
+//         while (distCount > k) {
+//            map.set(nums[left], 0);
+
+//         }
+//         if (distCount > k) {
+//             map.set(nums[left - 1], 1);
+//             distCount = 0; 
+//         }
+//         map.set(nums[right], (map.get(nums[right]) || 0) + 1);
+//     }
+//     return length;
+// }
+
+// console.log(dist(nums, k));
 
 
 
