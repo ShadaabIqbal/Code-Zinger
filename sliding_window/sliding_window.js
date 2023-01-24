@@ -200,31 +200,89 @@
 // let nums = [1,2,1,3,4];
 // let k = 3;
 
-// function dist(nums, k) {
+// function noOfGoodArrays(nums, k) {
+//     return subarraysWithKDistinct(nums, k) - subarraysWithKDistinct(nums, k - 1);
+// }
+
+// function subarraysWithKDistinct(nums, k) {
 //     let map = new Map();
 //     let right = 0;
 //     let left = 0;
-//     let length = 0;
-//     let distCount = 0;
+//     let maxCount = 0;
 //     for (right = 0; right < nums.length; right++) {
-
-//         if (!map.get(nums[right])) {
-//             distCount++
-//         }
-//         while (distCount > k) {
-//            map.set(nums[left], 0);
-
-//         }
-//         if (distCount > k) {
-//             map.set(nums[left - 1], 1);
-//             distCount = 0; 
-//         }
 //         map.set(nums[right], (map.get(nums[right]) || 0) + 1);
+//         if (map.get(nums[right]) === 1) {
+//             k--;
+//         }
+//         while (k < 0) {
+//             map.set(nums[left], (map.get(nums[left])) - 1);
+//             if (map.get(nums[left]) === 0) {
+//                 k++;
+//             }
+//             left++;
+//         }
+//         maxCount += right - left + 1;
 //     }
-//     return length;
+//     return maxCount;
 // }
 
-// console.log(dist(nums, k));
+// console.log(noOfGoodArrays(nums, k));
+
+//Qno46:
+// let s = "AABABBA";
+// let k = 1;
+// var characterReplacement = function (s, k) {
+//     let map = new Map();
+//     let maxLength = 0;
+//     let maxFreq = 0;
+//     let left = 0;
+//     let right = 0;
+//     for (right = 0; right < s.length; right++) {
+//         map.set(s[right], (map.get(s[right]) || 0) + 1);
+//         maxFreq = Math.max(maxFreq, map.get(s[right]));
+//         while (maxFreq + k < right - left + 1) {
+//             map.set(s[left], map.get(s[left]) - 1);
+//             left++;
+//         }
+//         maxLength = Math.max(maxLength, right - left + 1);
+//     }
+//     return maxLength;
+// };
+
+// console.log(characterReplacement(s,k));
+
+//Qno47:
+// let str = 'abcdef';
+
+// function dist(str) {
+//     let mySet = new Set();
+//     for (let i = 0; i < str.length; i++) {
+//         mySet.add(str[i]);
+//     }
+//     let map = new Map();
+//     let right = 0;
+//     let left = 0;
+//     let setSize = mySet.size;
+//     let minLength = str.length;
+//     for (right = 0; right < str.length; right++) {
+//         map.set(str[right], (map.get(str[right]) || 0) + 1);
+//         if (map.size == setSize) {
+//             while (map.get(str[left]) > 1) {
+//                 map.set(str[left], map.get(str[left]) - 1);
+//                 left++;
+//             }
+//             minLength = Math.min(minLength, right - left + 1);
+//         }
+//     }
+//     return minLength;
+// }
+
+// console.log(dist(str));
+
+
+
+
+
 
 
 
