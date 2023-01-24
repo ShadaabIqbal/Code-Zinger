@@ -59,6 +59,44 @@
 
 // console.log(isPlr(s));
 
+// function cap(arr) {
+//     let newArr = [];
+//     if (arr.length == 0) { return [] }
+//     let s = arr[0].charAt(0).toUpperCase() + arr[0].slice(1);
+//     newArr.push(s);
+//     return newArr.concat(cap(arr.slice(1)));
+// }
+
+// console.log(cap(['hello', 'hola', 'hey']));
+
+// function reverse(w) {
+//     if (w <= 1) { return w }
+//     return reverse(w.slice(1)) + w[0];
+// }
+
+// function sen(sen) {
+//     let arr = sen.split(' ');
+//     for (let i = 0; i < arr.length; i++) {
+//     arr[i] = reverse(arr[i]);
+//     }
+//     return arr.join(' ');
+// }
+
+// console.log(sen('They are playing'));
+
+// let arr = [23, 2, 3, 1, 2, 1, 3];
+// function dup(arr) {
+//     let map = new Map();
+//     let newArr = [];
+//     for (let i = 0; i < arr.length; i++) {
+//         map.set(arr[i], (map.get(arr[i]) || 0) + 1);
+//         if (map.get(arr[i]) > 1) {
+//             newArr.push(arr[i]);
+//         }
+//     }
+//     return newArr;
+// }
+// console.log(dup(arr));
 
 
 
