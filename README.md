@@ -363,3 +363,62 @@ Output:
 Explanation:
 abbc of length 4 is the smallest window with the highest number of distinct characters.
 
+Qno48:
+POINTERS:
+Rotate using reverse and swap without using extra variables.
+
+Qno49:
+Find unique elements in an array.
+
+Qno50:
+Given an array Arr of N positive integers and another number X. Determine whether or not there exist two elements in Arr whose sum is exactly X.
+Example 1:
+Input:
+N = 6, X = 16
+Arr[] = {1, 4, 45, 6, 10, 8}
+Output: Yes
+Explanation: Arr[3] + Arr[4] = 6 + 10 = 16
+
+Qno51:
+Find the unique elements in an array and return them in a new array.
+
+Qno52:
+Given an array of N integers, and an integer K, find the number of pairs of elements in the array whose sum is equal to K.
+Example 1:
+Input:
+N = 4, K = 6
+arr[] = {1, 5, 7, 1}
+Output: 2
+Explanation: 
+arr[0] + arr[1] = 1 + 5 = 6 
+and arr[1] + arr[3] = 5 + 1 = 6.
+
+Qno53:
+// Given a string S. For each index i(1<=i<=N-1), erase it if s[i] is equal to s[i-1] in the string.
+// Example 1:
+// Input:
+// S = aabb
+// Output:  ab
+// Explanation: 'a' at 2nd position is
+// appearing 2nd time consecutively.
+// Similiar explanation for b at
+// 4th position.
+
+Qno54:
+// Given an array of integers (A[])  and a number x, find the smallest subarray with sum greater than the given value. If such a subarray do not exist return 0 in that case.
+// Note: The answer always exists. It is guaranteed that x doesn't exceed the summation of a[i] (from 1 to N).
+// Example 1:
+// Input:
+// A[] = {1, 4, 45, 6, 0, 19}
+// x  =  51
+// Output: 3
+// Explanation:
+// Minimum length subarray is
+// {4, 45, 6}
+
+Qno55:
+Given a string S, Find the second most frequent character in S.
+Input:
+aaabbcccc
+where:
+First line represents input string S
