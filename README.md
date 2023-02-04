@@ -422,3 +422,54 @@ Input:
 aaabbcccc
 where:
 First line represents input string S
+
+Qno56:
+BINARY SEARCH:
+Koko Eating Bananas
+Koko loves to eat bananas. There are n piles of bananas, the ith pile has piles[i] bananas. The guards have gone and will come back in h hours.
+Koko can decide her bananas-per-hour eating speed of k. Each hour, she chooses some pile of bananas and eats k bananas from that pile. If the pile has less than k bananas, she eats all of them instead and will not eat any more bananas during this hour.
+Koko likes to eat slowly but still wants to finish eating all the bananas before the guards return.
+Return the minimum integer k such that she can eat all the bananas within h hours.
+Example 1:
+Input: piles = [3,6,7,11], h = 8
+Output: 4
+
+Qno57:
+BINARY SEARCH
+Find First and Last Position of Element in Sorted Array
+Given an array of integers nums sorted in non-decreasing order, find the starting and ending position of a given target value.
+If target is not found in the array, return [-1, -1].
+You must write an algorithm with O(log n) runtime complexity.
+Example 1:
+Input: nums = [5,7,7,8,8,10], target = 8
+Output: [3,4]
+
+Qno58:
+Given an array, count pairs in the array such that one element of the pair divides the other.
+Examples:  
+Input : arr[] = {1, 2, 3}
+Output : 2
+The two pairs are (1, 2) and (1, 3)
+
+Qno59:
+Write function to merge two arrays:
+array1 = [
+     { name: 'a', value: '123' },
+     { name: 'b', value: '666' }
+]
+array2 = [
+     { name: 'c', value: '444' },
+     { name: 'd', value: '999' },
+     { name: 'b', value: '111' }
+]
+
+Qno60:
+Convert array of numbers in array of strings in such a way that if number was 1 2 3 4 then strings would have values like in 1:a, 2:ab, 3:abc, 4:abcd e.g:[2,5]:['ab','abcde].
+
+Qno61:
+Given an array arr[] of size N-1 with integers in the range of [1, N], the task is to find the missing number from the first N integers.
+Note: There are no duplicates in the list.
+Examples: 
+Input: arr[] = {1, 2, 4, 6, 3, 7, 8}, N = 8
+Output: 5
+Explanation: The missing number between 1 to 8 is 5
