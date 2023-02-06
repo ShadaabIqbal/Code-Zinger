@@ -91,6 +91,7 @@
 
 //Qno31:
 // let nums = [1, 2, 1, 0, 0, 2, 1, 1, 0];
+
 // function twoSum(nums) {
 //     let low = 0;
 //     let mid = 0;
@@ -194,18 +195,21 @@
 
 
 //Qno52:
-// function getPairsCount(arr,n,k){
-//     let map=new Map()
-//     let ans=0
-//     for(let i=0; i<n; i++){
-//         let x = k-arr[i]
-//         if(map.has(x)){
-//             ans+=map.get(x);
+// let arr = [1, 5, 7, 1]
+// let k = 6
+// function getPairsCount(arr, n, k) {
+//     let map = new Map()
+//     let ans = 0
+//     for (let i = 0; i < n; i++) {
+//         let x = k - arr[i]
+//         if (map.has(x)) {
+//             ans += map.get(x);
 //         }
-//         map.set(arr[i], (map.get(arr[i])||0)+1);
+//         map.set(arr[i], (map.get(arr[i]) || 0) + 1);
 //     }
 //     return ans;
-//  }
+// }
+// console.log(getPairsCount(arr,arr.length, k));
 
 //Qno53:
 // let str = 'aabb';

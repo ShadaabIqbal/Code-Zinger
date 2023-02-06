@@ -181,11 +181,11 @@ Output: 2
 
 Qno27:
 Two pointer:
-Find the pair which sums up to o ?
+Find the pair which sums up to 0 ?
 
 Qno28:
 Two pointer:
-Find the pair which sums up to o ?
+Find the pair which sums up to closest to x?
 
 Qno29:
 Max Pair Sum
@@ -352,7 +352,6 @@ Explanation: Replace the two 'A's with two 'B's or vice versa.
 
 Qno47:
 Smallest window that contains all characters of string itself
-Tags:	String
 Given a string S, find the smallest window(substring) length with all distinct characters of the given string.
 Input:
 aabbcc

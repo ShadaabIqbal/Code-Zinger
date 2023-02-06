@@ -2,8 +2,8 @@
 // let b = [5, 1, 2, 3, 4, 1, 2, 7];
 // let a = b.length;
 
-// let nums = [1, 2, 3, 6, 5, 1, 2, 1];
-// let k = 3;
+// let nums = [0,1,2,3,4,5,0];
+// let k = 6;
 
 // function containsDuplicate(nums, k) {
 //     let diff = Infinity;
@@ -85,7 +85,7 @@
 // console.log(sol(str));
 
 //Qno36:
-// let str = 'abcdefghijklm';
+// let str = 'abcdefghijklm'
 // let k = 13;
 
 // function ascii(str, k) {
@@ -126,7 +126,6 @@
 //     }
 //     return maxSum;
 // }
-
 // console.log(largestSum(arr,k));
 
 
@@ -252,7 +251,7 @@
 // console.log(characterReplacement(s,k));
 
 //Qno47:
-// let str = 'abcdef';
+// let str = 'aabbccbac';
 
 // function dist(str) {
 //     let mySet = new Set();
@@ -278,6 +277,28 @@
 // }
 
 // console.log(dist(str));
+
+// var lengthOfLongestSubstring = function (s) {
+//     let map = new Map()
+//     let i = 0
+//     let j = 0
+//     let currLen = 0
+//     let maxLen = 0
+//     for (j = 0; j < s.length; j++) {
+//         while (map.get(s[j]) == 1) {
+//             map.set(s[i], 0)
+//             i++
+//         }
+//         map.set(s[j], 1)
+//         currLen = j - i + 1;
+//         if (maxLen < currLen) {
+//             maxLen = currLen
+//         }
+//     }
+//     return maxLen
+// };
+
+// console.log(lengthOfLongestSubstring('pwwkew'));
 
 
 
